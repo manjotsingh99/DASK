@@ -1,7 +1,7 @@
----
-
 How to be a DaskMaster PART-1
+
 Implementation of Dask.Distributed, Dask.delayed & Dask Task Graph in 6 minutes {how in God's name} :-0
+
 Definition of Dask:
 
 Dask is an open-source library for parallel computing, written in Python. Originally developed by bleh bleh… (You really don't wanna know about it, do you?)
@@ -19,8 +19,6 @@ The main point is the execution time of this code. It will take around 2.5–3.1
 Now we will see Dask or as I like to call it, parallel code.
 
 
----
-
 Remember to install the Dask libraries to see the below code in working! As I am assuming you have all the libraries installed.
 
 
@@ -30,8 +28,6 @@ Never heard of the infamous quote!?
 
 Patience is bitter but it's fruit is sweet. ~ARISTOTLE
 
-
----
 
 What is delayed?? What is "Thunk"??Why I am getting that output??
 The Dask delayed function decorates your functions so that they operate lazily. Rather than executing your function immediately, it will defer execution.
@@ -66,7 +62,6 @@ Actually the for loop is not working like a for loop. here the delayed object is
 
 
 
----
 
 TIME FOR THE CLOSURE!!
 Dask is implemented worldwide and is widely used when working on a dataset. Well, you can't be a DaskMaster in 6 mins but now you do have a little understanding of Dask.
