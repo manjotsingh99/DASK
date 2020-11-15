@@ -1,8 +1,8 @@
-How to be a DaskMaster PART-1
+# How to be a DaskMaster PART-1
 
 Implementation of Dask.Distributed, Dask.delayed & Dask Task Graph in 6 minutes {how in God's name} :-0
 
-Definition of Dask:
+# Definition of Dask:
 
 Dask is an open-source library for parallel computing, written in Python. Originally developed by bleh bleh… (You really don't wanna know about it, do you?)
 My blog will walk you through what Dask is so that you don't waste your precious time on grasping it and wondering what the definition is.
@@ -26,10 +26,10 @@ Remember to install the Dask libraries to see the below code in working! As I am
 You look confused????WHYYYY? WAIT!!!
 Never heard of the infamous quote!?
 
-Patience is bitter but it's fruit is sweet. ~ARISTOTLE
+# Patience is bitter but it's fruit is sweet. ~ARISTOTLE
 
 
-What is delayed?? What is "Thunk"??Why I am getting that output??
+* What is delayed?? What is "Thunk"??Why I am getting that output??
 The Dask delayed function decorates your functions so that they operate lazily. Rather than executing your function immediately, it will defer execution.
 'Thunk' is a keyword which we use in reference to lazy execution. Basically, Dask does 'lazy' computing.
 
@@ -45,7 +45,7 @@ for that, we first have to create a Client that will redirect us to the Task Gra
 
 
 
-This code will help you to generate a link to the Task graph. By clicking on this link, you can see how Dask is working.
+# This code will help you to generate a link to the Task graph. By clicking on this link, you can see how Dask is working.
 Now to get into more detail that what is n_worker, thread_per_worker and…bleh bleh, you could visit:
 https://docs.dask.org/en/latest/diagnostics-distributed.html
 But for now, it is important to understand that it will show us: how the memory is getting loaded, which function is executing first etc…
@@ -65,8 +65,8 @@ Actually the for loop is not working like a for loop. here the delayed object is
 
 TIME FOR THE CLOSURE!!
 Dask is implemented worldwide and is widely used when working on a dataset. Well, you can't be a DaskMaster in 6 mins but now you do have a little understanding of Dask.
-Please tell me if you'd ever heard of Dask before reading this, and whether you've ever used it in your job or for a project.
-" Signing off ,
-MANJOT SINGH DHILLON
-Github-manjotsingh99
-LinkedIn -www.linkedin.com/in/MSeeeeeeeeee
+# Please tell me if you'd ever heard of Dask before reading this, and whether you've ever used it in your job or for a project.
+# " Signing off ,
+# MANJOT SINGH DHILLON
+# Github-manjotsingh99
+# LinkedIn -www.linkedin.com/in/MSeeeeeeeeee
